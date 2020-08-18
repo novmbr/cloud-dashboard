@@ -12,8 +12,8 @@ export default function Home({}) {
   );
 }
 
-export async function getServerSideProps(context: NextPageContext) {
-  const r = await fetch("https://api.novemberai.com/cloud/auth/");
+async function getServerSideProps(context: NextPageContext) {
+  const r = await fetch("https://api.novemberai.com/cloud/user/");
   let auth = r.json();
   return { props: {} };
 }

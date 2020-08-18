@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-background: rgb(246, 246, 246);
+    --button-background: #000;
+    --button-text: #fff;
+  }
+}

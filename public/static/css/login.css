@@ -1,0 +1,20 @@
+.login-container {
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 15%;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.login-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-field {
+  margin: 10px;
+}
